@@ -5,7 +5,8 @@ export class SitesComponent {
 		return [
 			new Component({
 	    		selector: "sites",
-	    		templateUrl: "src/app/SitesComponent.html"
+	    		templateUrl: "src/app/SitesComponent.html",
+				styleUrls: ['src/app/SitesComponent.css']
 	  		}),
 		];
 	}
