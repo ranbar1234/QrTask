@@ -1,0 +1,17 @@
+.overSite{
+    visibility: hidden;
+}
+
+.overSite:hover{
+    visibility: visible;
+}
+
+.qrImage{
+    left: 90px;
+    top: 0px;
+    position: absolute;
+}
+
+.sites{
+    width:0px;
+}
