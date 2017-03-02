@@ -1,6 +1,6 @@
 <ul>
-    <li *ngFor="#site of list" on-mouseover=hover(site) on-mouseleave='stopHover()'>
-        <span>{{site.Title}}</span>
+    <li *ngFor="#site of list">
+        <span on-mouseover=hover(site) on-mouseleave='stopHover()'>{{site.Title}}</span>
         <img class="qrImage" *ngIf="mouseOverSite === site.Title" [src]="site.QrUrl">   
     </li>
     <br>
